@@ -9,5 +9,5 @@ ali.index = ali['Date']
 plt.figure()
 ax = plt.subplot()
 ax.set_title('BABA')
-ali['Close'].plot(ax=ax)
+ali['Close'].plot(ax=ax,secondary_y=['BABA'],grid=True)
 plt.show()

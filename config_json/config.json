@@ -1,23 +1,25 @@
 {
-"DP" : 
-{
-"app" :
-{
-"PUB":{
-"pub1":{
-"topicname":"topic1",
-"msgnum":"9999999999",
-"msgsize":"256",
-"msgtime":"100000",
-"len":"1000"
-}
-},
-"SUB":{
-"sub1":{
-"topicname":"topic1",
-"len":"1000"
-}
-}
-}
-}
+"dp" : 
+	{
+		"app" :
+			{
+			"PUB":
+				{
+				"pub1":{
+				"topicname":"topic1",
+				"msgnum":"9999999999",
+				"msgsize":"256",
+				"msgtime":"100000",
+				"len":"1000"
+				}
+				},
+			"SUB":
+				{
+				"sub1":{
+				"topicname":"topic1",
+				"len":"1000"
+				}
+				}
+			}
+	}
 }
